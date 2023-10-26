@@ -1,7 +1,9 @@
-class Item{
+class Item {
   String name;
   int price;
-  //tes
+  int stock;
+  String image;
+  double rating;
 
-  Item({required this.name, required this.price});
+  Item({required this.name, required this.price, required this.stock, required this.image, required this.rating});
 }
